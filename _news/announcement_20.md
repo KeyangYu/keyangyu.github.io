@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-"IMUWhisper: Keyword Inference from Ambient Speech Through Zero-Permission Inertial Sensors" accepted at [ICCCN'26](https://buildsys.acm.org/2026/)
+"IMUWhisper: Keyword Inference from Ambient Speech Through Zero-Permission Inertial Sensors" accepted at [ICCCN'26](http://www.icccn.org/ICCCN26/index.html)
+
