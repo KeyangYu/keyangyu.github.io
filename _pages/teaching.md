@@ -9,7 +9,13 @@ nav_order: 5
 
 #### Marquette University
 
-##### Fall 2024
+##### Spring 2024. 2025, 2026
+
+COSC 3550 Programming Computer Games
+
+COSC 4360/5360 Software and System Security
+
+##### Fall 2024, 2025, 2026
 
 COSC 6280 Advanced Computer Security
 
