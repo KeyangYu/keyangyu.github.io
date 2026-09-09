@@ -1,3 +1,175 @@
+@INPROCEEDINGS{11662745,
+  author={Chen, Caiyue and Li, Qi and Yu, Keyang},
+  booktitle={2026 35th International Conference on Computer Communications and Networks (ICCCN)}, 
+  title={IMUWhisper: Keyword Inference from Ambient Speech Through Zero-Permission Inertial Sensors}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Modeling;Convolutional neural networks;Image sensors;Gyroscopes;Speech;Accelerometers;Spectrogram;Timing;Long short term memory;Printing;Inertial Sensors;Acoustic Side Channels;Privacy Leakage;Deep Learning;Data Analytics},
+  doi={10.1109/ICCCN69946.2026.11662745}}
+
+
+@INPROCEEDINGS{11663014,
+  author={Zhou, Ye and Gupta, Anany Pratap and Yu, Keyang and Li, Qi},
+  booktitle={2026 35th International Conference on Computer Communications and Networks (ICCCN)}, 
+  title={Inferring Device-Level Activity from VPN-Encrypted Smart-Home Traffic}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Modeling;Aggregates;Internet of Things;Virtual private networks;Smart homes;Timing;Uplink;Printing;Equations;Windows;Internet of Things;Smart Homes;VPN-Encrypted Traffic;Traffic Disaggregation;Privacy Inference},
+  doi={10.1109/ICCCN69946.2026.11663014}}
+
+
+@inproceedings{10.1145/3744256.3812551,
+author = {Gupta, Anany Pratap and Li, Xiangyu and Yu, Keyang and Li, Qi},
+title = {SolarSys: Scalable Peer-to-Peer Energy Trading for Residential Virtual Power Plants},
+year = {2026},
+isbn = {9798400720123},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3744256.3812551},
+doi = {10.1145/3744256.3812551},
+abstract = {Distributed solar energy resources (DSERs) in residential power systems are rapidly increasing due to declining photovoltaic module prices. This increase has led to the development of virtual power plants (VPPs) that coordinate local generation to support reliable and efficient grid operation. However, many existing VPPs rely on centralized control, where a central operator aggregates household-level information and determines trading outcomes, preventing individual users from independently and concurrently trading surplus energy. As a result, researchers have explored decentralized coordination, where individual households trade surplus solar energy directly with others to improve utilization and fairness within residential networks. However, such approaches perform well only in small deployments and become inefficient at scale as the number of participating households increases. To address these limitations, we design SolarSys, a hierarchical coordination system for peer-to-peer energy trading in distributed solar and storage communities. The system is organized hierarchically to support decision making at both the household and cluster levels. Each household node measures its generation, demand, and battery state, and makes local energy management decisions using a policy trained with Multi-Agent Proximal Policy Optimization to improve local solar usage and maintain cluster-level energy balance. Across clusters, SolarSys leverages a mean-field multi-agent reinforcement learning approach that updates high-level decisions using aggregated cluster conditions. In addition, we deploy SolarSys on a Raspberry Pi and find that the learned policies can run efficiently on low-power edge hardware. We find that SolarSys reduces the energy drawn from the grid by 27.48 ± 0.42\%, increases daytime solar utilization to 82.76 ± 5.11\%, and improves fairness to 0.773 (Jain’s Index). The results show that SolarSys enables efficient, fair, and scalable peer-to-peer energy trading in large-scale virtual power plant deployments.},
+booktitle = {Proceedings of the 13th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+pages = {429–439},
+numpages = {11},
+keywords = {Distributed solar energy, Cyber-physical systems, Smart grid, Sensor networks, Reinforcement learning.},
+location = {
+},
+series = {BuildSys '26}
+}
+
+@article{10.1145/3734870,
+author = {Guo, Xiaoguang and Yu, Keyang and Li, Qi and Chen, Dong},
+title = {Fingerprinting Voice Commands of VPN-protected Smart Speakers},
+year = {2026},
+issue_date = {July 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {22},
+number = {4},
+issn = {1550-4859},
+url = {https://doi.org/10.1145/3734870},
+doi = {10.1145/3734870},
+abstract = {Extensive recent research has shown that it is surprisingly easy to infer Amazon Alexa voice commands over their network traffic data. To prevent these traffic analytics (TA)-based inference attacks, smart home owners are considering deploying virtual private networks (VPNs) to safeguard their smart speakers. In this work, we design a new machine learning-powered attack framework—VoiceAttack that could still accurately fingerprint voice commands on VPN-encrypted voice speaker network traffic. We evaluate VoiceAttack under 5 different real-world settings using Amazon Alexa and Google Home. Our results show that VoiceAttack could correctly infer voice command sentences with a Matthews Correlation Coefficient (MCC) of 0.68 in a closed-world setting and infer voice command categories with an MCC of 0.84 in an open-world setting by eavesdropping VPN-encrypted network traffic data. This presents a significant risk to user privacy and security, as it suggests that external on-path attackers could still potentially intercept and decipher users’ voice commands despite the VPN encryption. We then further examine the sensitivity of voice speaker commands to VoiceAttack. We find that 134 voice speaker commands are highly vulnerable to VoiceAttack. We also present a defense approach—VoiceDefense, which could inject inject appropriate traffic “noise” into voice speaker traffic. And our evaluation results show that VoiceDefense could effectively mitigate VoiceAttack on Amazon Echo and Google Home.},
+journal = {ACM Trans. Sen. Netw.},
+month = apr,
+articleno = {34},
+numpages = {31},
+keywords = {Voice speakers, IoT systems, user privacy, ML systems, traffic analysis, smart homes}
+}
+
+@article{10.1145/3723040,
+author = {Li, Qi and Yu, Keyang and Snow, Carson and Chen, Dong},
+title = {Enabling Automatic Solar PV Array Identification using Big Satellite Imagery},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {2},
+url = {https://doi.org/10.1145/3723040},
+doi = {10.1145/3723040},
+abstract = {Recently, there has been a growing interest in automatically collecting distributed solar photovoltaic (PV) installation information in smart grid systems, including the quantity and locations of solar PV deployments, as well as their profiling information across a given geospatial region. Most recent approaches are still suffering low detection accuracy due to insufficient sample and principal feature learning when building their models and also separation of rooftop object segmentation and identification during their detection processes. In addition, they cannot report accurate multi-deployment results. To address these problems, we design a new system-SolarDetector+, which can automatically and accurately detect and profile distributed solar PV arrays without any extra cost. In essence, SolarDetector+ first leverages multiple data augmentation techniques, including Cycle-Consistent Adversarial Networks, Latent Diffusion Models, and Generative Adversarial networks, to build a large rooftop satellite imagery dataset (RSID). Then, SolarDetector+ employs Mask R-convolutional neural networks algorithm to accurately identify rooftop solar PV arrays and learn the detailed installation information for each solar PV array simultaneously. We find that pre-trained SolarDetector+ yields an average Matthews correlation coefficient of 0.862 to detect solar PV arrays over RSID, which is ∼50\% better than the most recent open source detection system—SolarFinder.},
+journal = {ACM J. Comput. Sustain. Soc.},
+month = may,
+articleno = {13},
+numpages = {28},
+keywords = {Data augmentation, data analytics, solar detection, imagery segmentation, deep learning, image processing}
+}
+
+@article{10.1145/3723040,
+author = {Li, Qi and Yu, Keyang and Snow, Carson and Chen, Dong},
+title = {Enabling Automatic Solar PV Array Identification using Big Satellite Imagery},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {2},
+url = {https://doi.org/10.1145/3723040},
+doi = {10.1145/3723040},
+abstract = {Recently, there has been a growing interest in automatically collecting distributed solar photovoltaic (PV) installation information in smart grid systems, including the quantity and locations of solar PV deployments, as well as their profiling information across a given geospatial region. Most recent approaches are still suffering low detection accuracy due to insufficient sample and principal feature learning when building their models and also separation of rooftop object segmentation and identification during their detection processes. In addition, they cannot report accurate multi-deployment results. To address these problems, we design a new system-SolarDetector+, which can automatically and accurately detect and profile distributed solar PV arrays without any extra cost. In essence, SolarDetector+ first leverages multiple data augmentation techniques, including Cycle-Consistent Adversarial Networks, Latent Diffusion Models, and Generative Adversarial networks, to build a large rooftop satellite imagery dataset (RSID). Then, SolarDetector+ employs Mask R-convolutional neural networks algorithm to accurately identify rooftop solar PV arrays and learn the detailed installation information for each solar PV array simultaneously. We find that pre-trained SolarDetector+ yields an average Matthews correlation coefficient of 0.862 to detect solar PV arrays over RSID, which is ∼50\% better than the most recent open source detection system—SolarFinder.},
+journal = {ACM J. Comput. Sustain. Soc.},
+month = may,
+articleno = {13},
+numpages = {28},
+keywords = {Data augmentation, data analytics, solar detection, imagery segmentation, deep learning, image processing}
+}
+
+@inproceedings{palacio2026socialstego,
+  author    = {Palacio, Branden and Yu, Keyang},
+  title     = {{SocialStego}: A Steganography Tool for the Modern Era of
+               Social Media},
+  booktitle = {Proceedings of the Workshop on Attack Provenance, Reasoning,
+               and Investigation for Security in the Monitored Environment
+               ({PRISM})},
+  publisher = {Internet Society},
+  address   = {San Diego, CA, USA},
+  month     = feb,
+  year      = {2026},
+  isbn      = {978-1-970672-00-8},
+  doi       = {10.14722/prism.2026.23016},
+  note      = {Co-located with the Network and Distributed System Security
+               Symposium ({NDSS})},
+}
+
+@inproceedings{bajpai2025homeshield,
+  author    = {Bajpai, Dhananjai and Yu, Keyang},
+  title     = {Home Shield {IoT} Traffic Analyzer: A Comprehensive Analysis
+               of Data Sharing Practices},
+  booktitle = {Proceedings of the Workshop on Innovation in Metadata Privacy:
+               Analysis and Construction Techniques ({IMPACT})},
+  publisher = {Internet Society},
+  address   = {San Diego, CA, USA},
+  month     = feb,
+  year      = {2025},
+  isbn      = {979-8-9919276-2-8},
+  doi       = {10.14722/impact.2025.23051},
+  note      = {Co-located with the Network and Distributed System Security
+               Symposium ({NDSS})},
+}
+
+@article{10.1145/3701726,
+author = {Yu, Keyang and Li, Qi and Chen, Dong and Hu, Liting},
+title = {Safeguarding User-Centric Privacy in Smart Homes},
+year = {2024},
+issue_date = {November 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {24},
+number = {4},
+issn = {1533-5399},
+url = {https://doi.org/10.1145/3701726},
+doi = {10.1145/3701726},
+abstract = {Internet of Things (IoT) devices have been increasingly deployed in smart homes to automatically monitor and control their environments. Unfortunately, extensive recent research has shown that on-path external adversaries can infer and further fingerprint people’s sensitive private information by analyzing IoT network traffic traces. In addition, most recent approaches that aim to defend against these malicious IoT traffic analytics cannot adequately protect user privacy with reasonable traffic overhead. In particular, these approaches often did not consider practical traffic reshaping limitations, user daily routine permitting, and user privacy protection preference in their design. To address these issues, we design a new low-cost, open source user-centric defense system—PrivacyGuard—that enables people to regain the privacy leakage control of their IoT devices while still permitting sophisticated IoT data analytics that is necessary for smart home automation. In essence, our approach employs intelligent deep convolutional generative adversarial network assisted IoT device traffic signature learning, long short-term memory based artificial traffic signature injection, and partial traffic reshaping to obfuscate private information that can be observed in IoT device traffic traces. We evaluate PrivacyGuard using IoT network traffic traces of 31 IoT devices from five smart homes and buildings. We find that PrivacyGuard can effectively prevent a wide range of state-of-the-art adversarial machine learning and deep learning based user in-home activity inference and fingerprinting attacks and help users achieve the balance between their IoT data utility and privacy preserving.},
+journal = {ACM Trans. Internet Technol.},
+month = nov,
+articleno = {23},
+numpages = {33},
+keywords = {Security and privacy, data analytics, IoT sensors and devices, modeling and analysis}
+}
+
+@inproceedings{10.1145/3671127.3698171,
+author = {Guo, Xiaoguang and Yu, Keyang and Li, Qi and Chen, Dong},
+title = {VoiceAttack: Fingerprinting Voice Command on VPN-protected Smart Home Speakers},
+year = {2024},
+isbn = {9798400707063},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3671127.3698171},
+doi = {10.1145/3671127.3698171},
+abstract = {Recently, there are growing security and privacy concerns regarding smart voice speakers, such as Amazon Alexa and Google Home. Extensive prior research has shown that it is surprisingly easy to infer Amazon Alexa voice commands over their network traffic data. To prevent these traffic analytics (TA)-based inference attacks, smart home owners are considering deploying virtual private networks (VPNs) to safeguard their smart speakers. In this work, we design a new machine learning (ML) and deep learning (DL)-powered attack framework---VoiceAttack that could still accurately fingerprint voice commands on VPN-encrypted voice speaker network traffic. We evaluate VoiceAttack under 5 different real-world settings using Amazon Alexa and Google Home. Our results show that VoiceAttack could correctly infer voice command sentences with a Matthews Correlation Coefficient (MCC) of 0.68 in a closed-world setting and infer voice command categories with an MCC of 0.84 in an open-world setting by eavesdropping VPN-encrypted network traffic rates. This presents a significant risk to user privacy and security, as it suggests that external on-path attackers could still potentially intercept and decipher users' voice commands despite the VPN encryption. We then further examine the sensitivity of voice speaker commands to VoiceAttack. We find that 134 voice speaker commands are highly vulnerable to VoiceAttack and 3 commands are less sensitive. We also present a proof-of-concept defense approach---VoiceDefense, which could effectively mitigate TA attack accuracy on Amazon Echo and Google Home by ~50\%.},
+booktitle = {Proceedings of the 11th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+pages = {55–65},
+numpages = {11},
+keywords = {IoT Systems, ML Systems, Smart Homes, Traffic Analysis, User Privacy, Voice Speakers},
+location = {Hangzhou, China},
+series = {BuildSys '24}
+}
+
 @INPROCEEDINGS{10630953,
   author={Yu, Keyang and Chen, Dong},
   bibtex_show={true},
